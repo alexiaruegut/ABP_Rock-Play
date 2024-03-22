@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1D</title>
+    <link rel="stylesheet" href="player.css">
+</head>
+
+<body>
+
+    <audio src="" id="audio"></audio>
+
+    <style>
+        body {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 07)),
+                url(https://i.etsystatic.com/23811226/r/il/d724eb/2787166156/il_fullxfull.2787166156_94ft.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            min-height: 100vh;
+            width: 100%;
+        }
+    </style>
+
+    <div class="content">
+        <div class="left-col">
+            <h1><a href="index.html#slider">ONE DIRECTION</a></h1>
+        </div>
+        <div class="right-col">
+            <div class="container-player">
+                <div class="music-player">
+                    <h1 class="music-name"></h1>
+                    <p class="artist-name"></p>
+
+                    <div class="disk"></div>
+
+                    <div class="song-slider">
+                        <input type="range" value="0" class="seek-bar">
+                        <span class="current-time">00:00</span>
+                        <span class="song-duration">00:00</span>
+                    </div>
+
+                    <div class="controls">
+                        <button class="btn backward-btn"><img src="img/back.svg" class="back-btn"
+                                alt="backward icon"></button>
+                        <button class="play-btn pause">
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <button class="btn forward-btn"><img src="img/next.svg" class="next-btn"
+                                alt="forward button"></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="OneDirection.js"></script>
+
+</body>
+
+</html>
